@@ -1,0 +1,605 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.vmf
+Map revision 1
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6327 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 26 texinfos to 15
+Reduced 10 texdatas to 9 (293 bytes to 229)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.prt
+  36 portalclusters
+  72 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.00%)
+Total clusters visible: 612
+Average clusters visible: 17
+Building PAS...
+Average clusters audible: 18
+visdatasize:684  compressed from 576
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+488 faces
+790872 square feet [113885616.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+488 patches before subdivision
+488 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 20752, max 138
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0270 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/4096          144/196608   ( 0.1%) 
+brushes                 16/32768         192/393216   ( 0.0%) 
+brushsides              96/65536         768/524288   ( 0.1%) 
+planes                 118/65536        2360/1310720  ( 0.2%) 
+vertexes               533/65536        6396/786432   ( 0.8%) 
+nodes                  130/65536        4160/2097152  ( 0.2%) 
+texinfos                15/12288        1080/884736   ( 0.1%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  488/65536       27328/3670016  ( 0.7%) 
+hdr faces              488/65536       27328/3670016  ( 0.7%) 
+origfaces               41/65536        2296/3670016  ( 0.1%) 
+leaves                 134/65536        4288/2097152  ( 0.2%) 
+leaffaces              632/65536        1264/131072   ( 1.0%) 
+leafbrushes             70/65536         140/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             2288/512000       9152/2048000  ( 0.4%) 
+edges                 1185/256000       4740/1024000  ( 0.5%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips              0/131072          0/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices             0/131072          0/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     2739512/0        ( 0.0%) 
+visdata               [variable]         684/16777216 ( 0.0%) 
+entdata               [variable]        2806/393216   ( 0.7%) 
+LDR ambient table      134/65536         536/262144   ( 0.2%) 
+HDR ambient table      134/65536         536/262144   ( 0.2%) 
+LDR leaf ambient       134/65536        3752/1835008  ( 0.2%) 
+HDR leaf ambient        50/65536        1400/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       87132/0        ( 0.0%) 
+physics               [variable]        6327/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 1148
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.vmf
+Map revision 2
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8989 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 32 texinfos to 18
+Reduced 12 texdatas to 10 (347 bytes to 240)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.prt
+  38 portalclusters
+  77 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.00%)
+Total clusters visible: 758
+Average clusters visible: 19
+Building PAS...
+Average clusters audible: 38
+visdatasize:688  compressed from 608
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+568 faces
+890927 square feet [128293584.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+568 patches before subdivision
+568 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 22271, max 141
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0260 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/4096          192/196608   ( 0.1%) 
+brushes                 24/32768         288/393216   ( 0.1%) 
+brushsides             155/65536        1240/524288   ( 0.2%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes               633/65536        7596/786432   ( 1.0%) 
+nodes                  147/65536        4704/2097152  ( 0.2%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  568/65536       31808/3670016  ( 0.9%) 
+hdr faces              568/65536       31808/3670016  ( 0.9%) 
+origfaces               68/65536        3808/3670016  ( 0.1%) 
+leaves                 152/65536        4864/2097152  ( 0.2%) 
+leaffaces              713/65536        1426/131072   ( 1.1%) 
+leafbrushes             85/65536         170/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2787/512000      11148/2048000  ( 0.5%) 
+edges                 1457/256000       5828/1024000  ( 0.6%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             18/131072        180/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           246/131072        492/262144   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     2902076/0        ( 0.0%) 
+visdata               [variable]         688/16777216 ( 0.0%) 
+entdata               [variable]        3469/393216   ( 0.9%) 
+LDR ambient table      152/65536         608/262144   ( 0.2%) 
+HDR ambient table      152/65536         608/262144   ( 0.2%) 
+LDR leaf ambient       152/65536        4256/1835008  ( 0.2%) 
+HDR leaf ambient        58/65536        1624/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/208      ( 0.5%) 
+pakfile               [variable]      174144/0        ( 0.0%) 
+physics               [variable]        8989/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 1386
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.vmf
+Map revision 2
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8989 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 32 texinfos to 18
+Reduced 12 texdatas to 10 (347 bytes to 240)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.prt
+  38 portalclusters
+  77 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.00%)
+Total clusters visible: 758
+Average clusters visible: 19
+Building PAS...
+Average clusters audible: 38
+visdatasize:688  compressed from 608
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+568 faces
+890927 square feet [128293584.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+568 patches before subdivision
+568 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 22271, max 141
+transfer lists:   0.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0234 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/4096          192/196608   ( 0.1%) 
+brushes                 24/32768         288/393216   ( 0.1%) 
+brushsides             155/65536        1240/524288   ( 0.2%) 
+planes                 154/65536        3080/1310720  ( 0.2%) 
+vertexes               633/65536        7596/786432   ( 1.0%) 
+nodes                  147/65536        4704/2097152  ( 0.2%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  568/65536       31808/3670016  ( 0.9%) 
+hdr faces              568/65536       31808/3670016  ( 0.9%) 
+origfaces               68/65536        3808/3670016  ( 0.1%) 
+leaves                 152/65536        4864/2097152  ( 0.2%) 
+leaffaces              713/65536        1426/131072   ( 1.1%) 
+leafbrushes             85/65536         170/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             2787/512000      11148/2048000  ( 0.5%) 
+edges                 1457/256000       5828/1024000  ( 0.6%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             18/131072        180/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           246/131072        492/262144   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     2902076/0        ( 0.0%) 
+visdata               [variable]         688/16777216 ( 0.0%) 
+entdata               [variable]        3469/393216   ( 0.9%) 
+LDR ambient table      152/65536         608/262144   ( 0.2%) 
+HDR ambient table      152/65536         608/262144   ( 0.2%) 
+LDR leaf ambient       152/65536        4256/1835008  ( 0.2%) 
+HDR leaf ambient        58/65536        1624/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/208      ( 0.5%) 
+pakfile               [variable]      174144/0        ( 0.0%) 
+physics               [variable]        8989/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 1386
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.vmf
+Map revision 4
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (8049 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 54 texinfos to 23
+Reduced 12 texdatas to 11 (364 bytes to 300)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.prt
+  44 portalclusters
+ 108 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.00%)
+Total clusters visible: 1892
+Average clusters visible: 43
+Building PAS...
+Average clusters audible: 44
+visdatasize:884  compressed from 704
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+320 faces
+719133 square feet [103555168.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+320 patches before subdivision
+320 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10734, max 79
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0145 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/4096          240/196608   ( 0.1%) 
+brushes                 20/32768         240/393216   ( 0.1%) 
+brushsides             120/65536         960/524288   ( 0.2%) 
+planes                 124/65536        2480/1310720  ( 0.2%) 
+vertexes               349/65536        4188/786432   ( 0.5%) 
+nodes                  142/65536        4544/2097152  ( 0.2%) 
+texinfos                23/12288        1656/884736   ( 0.2%) 
+texdata                 11/2048          352/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  320/65536       17920/3670016  ( 0.5%) 
+hdr faces              320/65536       17920/3670016  ( 0.5%) 
+origfaces               42/65536        2352/3670016  ( 0.1%) 
+leaves                 148/65536        4736/2097152  ( 0.2%) 
+leaffaces              408/65536         816/131072   ( 0.6%) 
+leafbrushes             72/65536         144/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1542/512000       6168/2048000  ( 0.3%) 
+edges                  816/256000       3264/1024000  ( 0.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips              7/131072         70/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           102/131072        204/262144   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     2414152/0        ( 0.0%) 
+visdata               [variable]         884/16777216 ( 0.0%) 
+entdata               [variable]        3815/393216   ( 1.0%) 
+LDR ambient table      148/65536         592/262144   ( 0.2%) 
+HDR ambient table      148/65536         592/262144   ( 0.2%) 
+LDR leaf ambient       148/65536        4144/1835008  ( 0.2%) 
+HDR leaf ambient        71/65536        1988/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/206      ( 0.5%) 
+pakfile               [variable]       87132/0        ( 0.0%) 
+physics               [variable]        8049/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 734
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.vmf
+Map revision 5
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7491 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 49 texinfos to 22
+Reduced 11 texdatas to 10 (343 bytes to 279)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.prt
+  44 portalclusters
+ 108 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 4 visible clusters (0.00%)
+Total clusters visible: 1892
+Average clusters visible: 43
+Building PAS...
+Average clusters audible: 44
+visdatasize:884  compressed from 704
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+320 faces
+719133 square feet [103555168.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+320 patches before subdivision
+320 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10734, max 79
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0117 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/4096          192/196608   ( 0.1%) 
+brushes                 19/32768         228/393216   ( 0.1%) 
+brushsides             114/65536         912/524288   ( 0.2%) 
+planes                 124/65536        2480/1310720  ( 0.2%) 
+vertexes               341/65536        4092/786432   ( 0.5%) 
+nodes                  136/65536        4352/2097152  ( 0.2%) 
+texinfos                22/12288        1584/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  320/65536       17920/3670016  ( 0.5%) 
+hdr faces              320/65536       17920/3670016  ( 0.5%) 
+origfaces               42/65536        2352/3670016  ( 0.1%) 
+leaves                 141/65536        4512/2097152  ( 0.2%) 
+leaffaces              408/65536         816/131072   ( 0.6%) 
+leafbrushes             71/65536         142/131072   ( 0.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             1542/512000       6168/2048000  ( 0.3%) 
+edges                  816/256000       3264/1024000  ( 0.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips              7/131072         70/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           102/131072        204/262144   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     2414152/0        ( 0.0%) 
+visdata               [variable]         884/16777216 ( 0.0%) 
+entdata               [variable]        3532/393216   ( 0.9%) 
+LDR ambient table      141/65536         564/262144   ( 0.2%) 
+HDR ambient table      141/65536         564/262144   ( 0.2%) 
+LDR leaf ambient       141/65536        3948/1835008  ( 0.2%) 
+HDR leaf ambient        64/65536        1792/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/206      ( 0.5%) 
+pakfile               [variable]       87132/0        ( 0.0%) 
+physics               [variable]        7491/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 734
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\fillingroomwithacid.bsp
+2 seconds elapsed

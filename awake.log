@@ -1,0 +1,19 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\awake.vmf
+Map revision 1
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-832.00 -1216.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\awake.bsp
+Error opening c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\awake.bsp

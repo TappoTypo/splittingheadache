@@ -1,0 +1,3388 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 1
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2847 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 10
+Reduced 5 texdatas to 5 (175 bytes to 175)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+70 faces
+89212 square feet [12846592.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+70 patches before subdivision
+8134 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 936160, max 268
+transfer lists:   7.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0205 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                  7/32768          84/393216   ( 0.0%) 
+brushsides              42/65536         336/524288   ( 0.1%) 
+planes                  68/65536        1360/1310720  ( 0.1%) 
+vertexes                83/65536         996/786432   ( 0.1%) 
+nodes                   31/65536         992/2097152  ( 0.0%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   70/65536        3920/3670016  ( 0.1%) 
+hdr faces               70/65536        3920/3670016  ( 0.1%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+leaves                  34/65536        1088/2097152  ( 0.1%) 
+leaffaces               70/65536         140/131072   ( 0.1%) 
+leafbrushes             17/65536          34/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              344/512000       1376/2048000  ( 0.1%) 
+edges                  173/256000        692/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/131072          0/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices             0/131072          0/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      873464/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        2413/393216   ( 0.6%) 
+LDR ambient table       34/65536         136/262144   ( 0.1%) 
+HDR ambient table       34/65536         136/262144   ( 0.1%) 
+LDR leaf ambient        34/65536         952/1835008  ( 0.1%) 
+HDR leaf ambient        10/65536         280/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        2847/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 156
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 2
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2847 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 10
+Reduced 5 texdatas to 5 (175 bytes to 175)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+70 faces
+89212 square feet [12846592.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+70 patches before subdivision
+8134 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 936160, max 268
+transfer lists:   7.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0044 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                  7/32768          84/393216   ( 0.0%) 
+brushsides              42/65536         336/524288   ( 0.1%) 
+planes                  68/65536        1360/1310720  ( 0.1%) 
+vertexes                83/65536         996/786432   ( 0.1%) 
+nodes                   31/65536         992/2097152  ( 0.0%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   70/65536        3920/3670016  ( 0.1%) 
+hdr faces               70/65536        3920/3670016  ( 0.1%) 
+origfaces               12/65536         672/3670016  ( 0.0%) 
+leaves                  34/65536        1088/2097152  ( 0.1%) 
+leaffaces               70/65536         140/131072   ( 0.1%) 
+leafbrushes             17/65536          34/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              344/512000       1376/2048000  ( 0.1%) 
+edges                  173/256000        692/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/131072          0/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices             0/131072          0/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      873464/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        3166/393216   ( 0.8%) 
+LDR ambient table       34/65536         136/262144   ( 0.1%) 
+HDR ambient table       34/65536         136/262144   ( 0.1%) 
+LDR leaf ambient        34/65536         952/1835008  ( 0.1%) 
+HDR leaf ambient        10/65536         280/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        2847/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 156
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 3
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (2845 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 8
+Reduced 5 texdatas to 5 (148 bytes to 148)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+   4 portalclusters
+   4 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 16
+Average clusters visible: 4
+Building PAS...
+Average clusters audible: 4
+visdatasize:44  compressed from 64
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+64 faces
+89201 square feet [12845056.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+64 patches before subdivision
+8128 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 935482, max 268
+transfer lists:   7.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0060 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/4096           96/196608   ( 0.0%) 
+brushes                  7/32768          84/393216   ( 0.0%) 
+brushsides              42/65536         336/524288   ( 0.1%) 
+planes                  68/65536        1360/1310720  ( 0.1%) 
+vertexes                83/65536         996/786432   ( 0.1%) 
+nodes                   31/65536         992/2097152  ( 0.0%) 
+texinfos                 8/12288         576/884736   ( 0.1%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                   64/65536        3584/3670016  ( 0.1%) 
+hdr faces               64/65536        3584/3670016  ( 0.1%) 
+origfaces                6/65536         336/3670016  ( 0.0%) 
+leaves                  34/65536        1088/2097152  ( 0.1%) 
+leaffaces               64/65536         128/131072   ( 0.1%) 
+leafbrushes             17/65536          34/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              296/512000       1184/2048000  ( 0.1%) 
+edges                  149/256000        596/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              0/131072          0/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices             0/131072          0/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      872608/0        ( 0.0%) 
+visdata               [variable]          44/16777216 ( 0.0%) 
+entdata               [variable]        3312/393216   ( 0.8%) 
+LDR ambient table       34/65536         136/262144   ( 0.1%) 
+HDR ambient table       34/65536         136/262144   ( 0.1%) 
+LDR leaf ambient        34/65536         952/1835008  ( 0.1%) 
+HDR leaf ambient        11/65536         308/1835008  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        2845/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 144
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 4
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (5758 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 34 texinfos to 18
+Reduced 9 texdatas to 9 (234 bytes to 234)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  25 portalclusters
+  69 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 547
+Average clusters visible: 21
+Building PAS...
+Average clusters audible: 25
+visdatasize:404  compressed from 400
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+114 faces
+90180 square feet [12986047.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+114 patches before subdivision
+8328 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1053432, max 290
+transfer lists:   8.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0051 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/4096          144/196608   ( 0.1%) 
+brushes                 10/32768         120/393216   ( 0.0%) 
+brushsides              88/65536         704/524288   ( 0.1%) 
+planes                 186/65536        3720/1310720  ( 0.3%) 
+vertexes               175/65536        2100/786432   ( 0.3%) 
+nodes                   64/65536        2048/2097152  ( 0.1%) 
+texinfos                18/12288        1296/884736   ( 0.1%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  114/65536        6384/3670016  ( 0.2%) 
+hdr faces              114/65536        6384/3670016  ( 0.2%) 
+origfaces               39/65536        2184/3670016  ( 0.1%) 
+leaves                  68/65536        2176/2097152  ( 0.1%) 
+leaffaces              154/65536         308/131072   ( 0.2%) 
+leafbrushes             20/65536          40/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              692/512000       2768/2048000  ( 0.1%) 
+edges                  355/256000       1420/1024000  ( 0.1%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/131072         10/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices             9/131072         18/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      892900/0        ( 0.0%) 
+visdata               [variable]         404/16777216 ( 0.0%) 
+entdata               [variable]        4088/393216   ( 1.0%) 
+LDR ambient table       68/65536         272/262144   ( 0.1%) 
+HDR ambient table       68/65536         272/262144   ( 0.1%) 
+LDR leaf ambient        68/65536        1904/1835008  ( 0.1%) 
+HDR leaf ambient        42/65536        1176/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        5758/4194304  ( 0.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 288
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 5
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6542 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 40 texinfos to 22
+Reduced 10 texdatas to 10 (254 bytes to 254)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  29 portalclusters
+  76 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 791
+Average clusters visible: 27
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+132 faces
+90232 square feet [12993471.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+132 patches before subdivision
+8582 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1118810, max 300
+transfer lists:   8.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0077 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/4096          144/196608   ( 0.1%) 
+brushes                 12/32768         144/393216   ( 0.0%) 
+brushsides             100/65536         800/524288   ( 0.2%) 
+planes                 192/65536        3840/1310720  ( 0.3%) 
+vertexes               204/65536        2448/786432   ( 0.3%) 
+nodes                   71/65536        2272/2097152  ( 0.1%) 
+texinfos                22/12288        1584/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  132/65536        7392/3670016  ( 0.2%) 
+hdr faces              132/65536        7392/3670016  ( 0.2%) 
+origfaces               47/65536        2632/3670016  ( 0.1%) 
+leaves                  75/65536        2400/2097152  ( 0.1%) 
+leaffaces              190/65536         380/131072   ( 0.3%) 
+leafbrushes             23/65536          46/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              826/512000       3304/2048000  ( 0.2%) 
+edges                  430/256000       1720/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              5/131072         50/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            78/131072        156/262144   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      944604/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        4088/393216   ( 1.0%) 
+LDR ambient table       75/65536         300/262144   ( 0.1%) 
+HDR ambient table       75/65536         300/262144   ( 0.1%) 
+LDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+HDR leaf ambient        46/65536        1288/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        6542/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 354
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 7
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6542 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 40 texinfos to 22
+Reduced 10 texdatas to 10 (254 bytes to 254)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  29 portalclusters
+  76 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 791
+Average clusters visible: 27
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+132 faces
+90232 square feet [12993471.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+132 patches before subdivision
+8582 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1118810, max 300
+transfer lists:   8.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0043 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/4096          144/196608   ( 0.1%) 
+brushes                 12/32768         144/393216   ( 0.0%) 
+brushsides             100/65536         800/524288   ( 0.2%) 
+planes                 192/65536        3840/1310720  ( 0.3%) 
+vertexes               204/65536        2448/786432   ( 0.3%) 
+nodes                   71/65536        2272/2097152  ( 0.1%) 
+texinfos                22/12288        1584/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  132/65536        7392/3670016  ( 0.2%) 
+hdr faces              132/65536        7392/3670016  ( 0.2%) 
+origfaces               47/65536        2632/3670016  ( 0.1%) 
+leaves                  75/65536        2400/2097152  ( 0.1%) 
+leaffaces              190/65536         380/131072   ( 0.3%) 
+leafbrushes             23/65536          46/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              826/512000       3304/2048000  ( 0.2%) 
+edges                  430/256000       1720/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              5/131072         50/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            78/131072        156/262144   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      944604/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        4089/393216   ( 1.0%) 
+LDR ambient table       75/65536         300/262144   ( 0.1%) 
+HDR ambient table       75/65536         300/262144   ( 0.1%) 
+LDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+HDR leaf ambient        46/65536        1288/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        6542/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 354
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 8
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6542 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 40 texinfos to 22
+Reduced 10 texdatas to 10 (254 bytes to 254)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  29 portalclusters
+  76 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 791
+Average clusters visible: 27
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+132 faces
+90232 square feet [12993471.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+132 patches before subdivision
+8582 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1118810, max 300
+transfer lists:   8.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0045 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/4096          144/196608   ( 0.1%) 
+brushes                 12/32768         144/393216   ( 0.0%) 
+brushsides             100/65536         800/524288   ( 0.2%) 
+planes                 192/65536        3840/1310720  ( 0.3%) 
+vertexes               204/65536        2448/786432   ( 0.3%) 
+nodes                   71/65536        2272/2097152  ( 0.1%) 
+texinfos                22/12288        1584/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  132/65536        7392/3670016  ( 0.2%) 
+hdr faces              132/65536        7392/3670016  ( 0.2%) 
+origfaces               47/65536        2632/3670016  ( 0.1%) 
+leaves                  75/65536        2400/2097152  ( 0.1%) 
+leaffaces              190/65536         380/131072   ( 0.3%) 
+leafbrushes             23/65536          46/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              826/512000       3304/2048000  ( 0.2%) 
+edges                  430/256000       1720/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              5/131072         50/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            78/131072        156/262144   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      944604/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        4088/393216   ( 1.0%) 
+LDR ambient table       75/65536         300/262144   ( 0.1%) 
+HDR ambient table       75/65536         300/262144   ( 0.1%) 
+LDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+HDR leaf ambient        46/65536        1288/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        6542/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 354
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 9
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6542 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 40 texinfos to 22
+Reduced 10 texdatas to 10 (254 bytes to 254)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  29 portalclusters
+  76 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 791
+Average clusters visible: 27
+Building PAS...
+Average clusters audible: 29
+visdatasize:468  compressed from 464
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+132 faces
+90232 square feet [12993471.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+132 patches before subdivision
+8582 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1118810, max 300
+transfer lists:   8.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0045 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/4096          144/196608   ( 0.1%) 
+brushes                 12/32768         144/393216   ( 0.0%) 
+brushsides             100/65536         800/524288   ( 0.2%) 
+planes                 192/65536        3840/1310720  ( 0.3%) 
+vertexes               204/65536        2448/786432   ( 0.3%) 
+nodes                   71/65536        2272/2097152  ( 0.1%) 
+texinfos                22/12288        1584/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  132/65536        7392/3670016  ( 0.2%) 
+hdr faces              132/65536        7392/3670016  ( 0.2%) 
+origfaces               47/65536        2632/3670016  ( 0.1%) 
+leaves                  75/65536        2400/2097152  ( 0.1%) 
+leaffaces              190/65536         380/131072   ( 0.3%) 
+leafbrushes             23/65536          46/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              826/512000       3304/2048000  ( 0.2%) 
+edges                  430/256000       1720/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              5/131072         50/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            78/131072        156/262144   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      944604/0        ( 0.0%) 
+visdata               [variable]         468/16777216 ( 0.0%) 
+entdata               [variable]        4087/393216   ( 1.0%) 
+LDR ambient table       75/65536         300/262144   ( 0.1%) 
+HDR ambient table       75/65536         300/262144   ( 0.1%) 
+LDR leaf ambient        75/65536        2100/1835008  ( 0.1%) 
+HDR leaf ambient        46/65536        1288/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        6542/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 354
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 10
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6530 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 42 texinfos to 24
+Reduced 9 texdatas to 9 (222 bytes to 222)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  31 portalclusters
+  78 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 907
+Average clusters visible: 29
+Building PAS...
+Average clusters audible: 31
+visdatasize:500  compressed from 496
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+134 faces
+90237 square feet [12994239.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+134 patches before subdivision
+8770 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1152249, max 302
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0065 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/4096          144/196608   ( 0.1%) 
+brushes                 12/32768         144/393216   ( 0.0%) 
+brushsides             100/65536         800/524288   ( 0.2%) 
+planes                 194/65536        3880/1310720  ( 0.3%) 
+vertexes               206/65536        2472/786432   ( 0.3%) 
+nodes                   73/65536        2336/2097152  ( 0.1%) 
+texinfos                24/12288        1728/884736   ( 0.2%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  134/65536        7504/3670016  ( 0.2%) 
+hdr faces              134/65536        7504/3670016  ( 0.2%) 
+origfaces               47/65536        2632/3670016  ( 0.1%) 
+leaves                  77/65536        2464/2097152  ( 0.1%) 
+leaffaces              202/65536         404/131072   ( 0.3%) 
+leafbrushes             23/65536          46/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              834/512000       3336/2048000  ( 0.2%) 
+edges                  434/256000       1736/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              5/131072         50/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            75/131072        150/262144   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      946492/0        ( 0.0%) 
+visdata               [variable]         500/16777216 ( 0.0%) 
+entdata               [variable]        4139/393216   ( 1.1%) 
+LDR ambient table       77/65536         308/262144   ( 0.1%) 
+HDR ambient table       77/65536         308/262144   ( 0.1%) 
+LDR leaf ambient        77/65536        2156/1835008  ( 0.1%) 
+HDR leaf ambient        48/65536        1344/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        6530/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 358
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 11
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6530 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 42 texinfos to 24
+Reduced 9 texdatas to 9 (222 bytes to 222)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  31 portalclusters
+  78 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 907
+Average clusters visible: 29
+Building PAS...
+Average clusters audible: 31
+visdatasize:500  compressed from 496
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+134 faces
+90237 square feet [12994239.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+134 patches before subdivision
+8770 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1152249, max 302
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0045 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/4096          144/196608   ( 0.1%) 
+brushes                 12/32768         144/393216   ( 0.0%) 
+brushsides             100/65536         800/524288   ( 0.2%) 
+planes                 194/65536        3880/1310720  ( 0.3%) 
+vertexes               206/65536        2472/786432   ( 0.3%) 
+nodes                   73/65536        2336/2097152  ( 0.1%) 
+texinfos                24/12288        1728/884736   ( 0.2%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  134/65536        7504/3670016  ( 0.2%) 
+hdr faces              134/65536        7504/3670016  ( 0.2%) 
+origfaces               47/65536        2632/3670016  ( 0.1%) 
+leaves                  77/65536        2464/2097152  ( 0.1%) 
+leaffaces              202/65536         404/131072   ( 0.3%) 
+leafbrushes             23/65536          46/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              834/512000       3336/2048000  ( 0.2%) 
+edges                  434/256000       1736/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              5/131072         50/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            75/131072        150/262144   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      946492/0        ( 0.0%) 
+visdata               [variable]         500/16777216 ( 0.0%) 
+entdata               [variable]        4140/393216   ( 1.1%) 
+LDR ambient table       77/65536         308/262144   ( 0.1%) 
+HDR ambient table       77/65536         308/262144   ( 0.1%) 
+LDR leaf ambient        77/65536        2156/1835008  ( 0.1%) 
+HDR leaf ambient        48/65536        1344/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        6530/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 358
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 12
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6530 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 42 texinfos to 24
+Reduced 9 texdatas to 9 (222 bytes to 222)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  31 portalclusters
+  78 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 907
+Average clusters visible: 29
+Building PAS...
+Average clusters audible: 31
+visdatasize:500  compressed from 496
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+134 faces
+90237 square feet [12994239.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+134 patches before subdivision
+8770 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1152249, max 302
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0043 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/4096          144/196608   ( 0.1%) 
+brushes                 12/32768         144/393216   ( 0.0%) 
+brushsides             100/65536         800/524288   ( 0.2%) 
+planes                 194/65536        3880/1310720  ( 0.3%) 
+vertexes               206/65536        2472/786432   ( 0.3%) 
+nodes                   73/65536        2336/2097152  ( 0.1%) 
+texinfos                24/12288        1728/884736   ( 0.2%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  134/65536        7504/3670016  ( 0.2%) 
+hdr faces              134/65536        7504/3670016  ( 0.2%) 
+origfaces               47/65536        2632/3670016  ( 0.1%) 
+leaves                  77/65536        2464/2097152  ( 0.1%) 
+leaffaces              202/65536         404/131072   ( 0.3%) 
+leafbrushes             23/65536          46/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              834/512000       3336/2048000  ( 0.2%) 
+edges                  434/256000       1736/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              5/131072         50/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            75/131072        150/262144   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      946492/0        ( 0.0%) 
+visdata               [variable]         500/16777216 ( 0.0%) 
+entdata               [variable]        4144/393216   ( 1.1%) 
+LDR ambient table       77/65536         308/262144   ( 0.1%) 
+HDR ambient table       77/65536         308/262144   ( 0.1%) 
+LDR leaf ambient        77/65536        2156/1835008  ( 0.1%) 
+HDR leaf ambient        48/65536        1344/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        6530/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 358
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 13
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6530 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 42 texinfos to 24
+Reduced 9 texdatas to 9 (222 bytes to 222)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  31 portalclusters
+  78 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 907
+Average clusters visible: 29
+Building PAS...
+Average clusters audible: 31
+visdatasize:500  compressed from 496
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+134 faces
+90237 square feet [12994239.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+134 patches before subdivision
+8770 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1152249, max 302
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0045 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/4096          144/196608   ( 0.1%) 
+brushes                 12/32768         144/393216   ( 0.0%) 
+brushsides             100/65536         800/524288   ( 0.2%) 
+planes                 194/65536        3880/1310720  ( 0.3%) 
+vertexes               206/65536        2472/786432   ( 0.3%) 
+nodes                   73/65536        2336/2097152  ( 0.1%) 
+texinfos                24/12288        1728/884736   ( 0.2%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  134/65536        7504/3670016  ( 0.2%) 
+hdr faces              134/65536        7504/3670016  ( 0.2%) 
+origfaces               47/65536        2632/3670016  ( 0.1%) 
+leaves                  77/65536        2464/2097152  ( 0.1%) 
+leaffaces              202/65536         404/131072   ( 0.3%) 
+leafbrushes             23/65536          46/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              834/512000       3336/2048000  ( 0.2%) 
+edges                  434/256000       1736/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              5/131072         50/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            75/131072        150/262144   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      946492/0        ( 0.0%) 
+visdata               [variable]         500/16777216 ( 0.0%) 
+entdata               [variable]        4471/393216   ( 1.1%) 
+LDR ambient table       77/65536         308/262144   ( 0.1%) 
+HDR ambient table       77/65536         308/262144   ( 0.1%) 
+LDR leaf ambient        77/65536        2156/1835008  ( 0.1%) 
+HDR leaf ambient        48/65536        1344/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        6530/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 358
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 14
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (7469 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 48 texinfos to 27
+Reduced 9 texdatas to 9 (222 bytes to 222)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  31 portalclusters
+  78 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 907
+Average clusters visible: 29
+Building PAS...
+Average clusters audible: 31
+visdatasize:500  compressed from 496
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+144 faces
+90957 square feet [13097871.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+144 patches before subdivision
+8780 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1154088, max 302
+transfer lists:   8.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0052 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/4096          192/196608   ( 0.1%) 
+brushes                 13/32768         156/393216   ( 0.0%) 
+brushsides             114/65536         912/524288   ( 0.2%) 
+planes                 222/65536        4440/1310720  ( 0.3%) 
+vertexes               222/65536        2664/786432   ( 0.3%) 
+nodes                   83/65536        2656/2097152  ( 0.1%) 
+texinfos                27/12288        1944/884736   ( 0.2%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  144/65536        8064/3670016  ( 0.2%) 
+hdr faces              144/65536        8064/3670016  ( 0.2%) 
+origfaces               57/65536        3192/3670016  ( 0.1%) 
+leaves                  88/65536        2816/2097152  ( 0.1%) 
+leaffaces              212/65536         424/131072   ( 0.3%) 
+leafbrushes             24/65536          48/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              930/512000       3720/2048000  ( 0.2%) 
+edges                  482/256000       1928/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              5/131072         50/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            75/131072        150/262144   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]      946492/0        ( 0.0%) 
+visdata               [variable]         500/16777216 ( 0.0%) 
+entdata               [variable]        5079/393216   ( 1.3%) 
+LDR ambient table       88/65536         352/262144   ( 0.1%) 
+HDR ambient table       88/65536         352/262144   ( 0.1%) 
+LDR leaf ambient        88/65536        2464/1835008  ( 0.1%) 
+HDR leaf ambient        58/65536        1624/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        7469/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 386
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 17
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13304 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 63 texinfos to 38
+Reduced 10 texdatas to 10 (242 bytes to 242)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  36 portalclusters
+  87 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 904
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 27
+visdatasize:662  compressed from 576
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+241 faces
+365750 square feet [52668020.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+241 patches before subdivision
+11923 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1683028, max 336
+transfer lists:  12.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0063 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                 25/32768         300/393216   ( 0.1%) 
+brushsides             196/65536        1568/524288   ( 0.3%) 
+planes                 330/65536        6600/1310720  ( 0.5%) 
+vertexes               355/65536        4260/786432   ( 0.5%) 
+nodes                  162/65536        5184/2097152  ( 0.2%) 
+texinfos                38/12288        2736/884736   ( 0.3%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  241/65536       13496/3670016  ( 0.4%) 
+hdr faces              241/65536       13496/3670016  ( 0.4%) 
+origfaces              103/65536        5768/3670016  ( 0.2%) 
+leaves                 173/65536        5536/2097152  ( 0.3%) 
+leaffaces              265/65536         530/131072   ( 0.4%) 
+leafbrushes             58/65536         116/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             1524/512000       6096/2048000  ( 0.3%) 
+edges                  791/256000       3164/1024000  ( 0.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/131072         30/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            51/131072        102/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1240664/0        ( 0.0%) 
+visdata               [variable]         662/16777216 ( 0.0%) 
+entdata               [variable]        7567/393216   ( 1.9%) 
+LDR ambient table      173/65536         692/262144   ( 0.3%) 
+HDR ambient table      173/65536         692/262144   ( 0.3%) 
+LDR leaf ambient       173/65536        4844/1835008  ( 0.3%) 
+HDR leaf ambient       103/65536        2884/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]       13304/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 594
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 17
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13304 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 63 texinfos to 38
+Reduced 10 texdatas to 10 (242 bytes to 242)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  36 portalclusters
+  87 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 904
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 27
+visdatasize:662  compressed from 576
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+241 faces
+365750 square feet [52668020.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+241 patches before subdivision
+11923 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1683028, max 336
+transfer lists:  12.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0082 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                 25/32768         300/393216   ( 0.1%) 
+brushsides             196/65536        1568/524288   ( 0.3%) 
+planes                 330/65536        6600/1310720  ( 0.5%) 
+vertexes               355/65536        4260/786432   ( 0.5%) 
+nodes                  162/65536        5184/2097152  ( 0.2%) 
+texinfos                38/12288        2736/884736   ( 0.3%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  241/65536       13496/3670016  ( 0.4%) 
+hdr faces              241/65536       13496/3670016  ( 0.4%) 
+origfaces              103/65536        5768/3670016  ( 0.2%) 
+leaves                 173/65536        5536/2097152  ( 0.3%) 
+leaffaces              265/65536         530/131072   ( 0.4%) 
+leafbrushes             58/65536         116/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             1524/512000       6096/2048000  ( 0.3%) 
+edges                  791/256000       3164/1024000  ( 0.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/131072         30/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            51/131072        102/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1240664/0        ( 0.0%) 
+visdata               [variable]         662/16777216 ( 0.0%) 
+entdata               [variable]        7567/393216   ( 1.9%) 
+LDR ambient table      173/65536         692/262144   ( 0.3%) 
+HDR ambient table      173/65536         692/262144   ( 0.3%) 
+LDR leaf ambient       173/65536        4844/1835008  ( 0.3%) 
+HDR leaf ambient       103/65536        2884/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]       13304/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 594
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 18
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13304 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 63 texinfos to 38
+Reduced 10 texdatas to 10 (242 bytes to 242)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  36 portalclusters
+  87 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 904
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 27
+visdatasize:662  compressed from 576
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+241 faces
+365750 square feet [52668020.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+241 patches before subdivision
+11923 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1683028, max 336
+transfer lists:  12.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0068 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                 25/32768         300/393216   ( 0.1%) 
+brushsides             196/65536        1568/524288   ( 0.3%) 
+planes                 330/65536        6600/1310720  ( 0.5%) 
+vertexes               355/65536        4260/786432   ( 0.5%) 
+nodes                  162/65536        5184/2097152  ( 0.2%) 
+texinfos                38/12288        2736/884736   ( 0.3%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  241/65536       13496/3670016  ( 0.4%) 
+hdr faces              241/65536       13496/3670016  ( 0.4%) 
+origfaces              103/65536        5768/3670016  ( 0.2%) 
+leaves                 173/65536        5536/2097152  ( 0.3%) 
+leaffaces              265/65536         530/131072   ( 0.4%) 
+leafbrushes             58/65536         116/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             1524/512000       6096/2048000  ( 0.3%) 
+edges                  791/256000       3164/1024000  ( 0.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/131072         30/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            51/131072        102/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1240664/0        ( 0.0%) 
+visdata               [variable]         662/16777216 ( 0.0%) 
+entdata               [variable]        7567/393216   ( 1.9%) 
+LDR ambient table      173/65536         692/262144   ( 0.3%) 
+HDR ambient table      173/65536         692/262144   ( 0.3%) 
+LDR leaf ambient       173/65536        4844/1835008  ( 0.3%) 
+HDR leaf ambient       103/65536        2884/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]       13304/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 594
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 19
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14402 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 73 texinfos to 38
+Reduced 10 texdatas to 10 (242 bytes to 242)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  36 portalclusters
+  87 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 904
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 27
+visdatasize:662  compressed from 576
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+241 faces
+365750 square feet [52668020.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+241 patches before subdivision
+11923 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1683028, max 336
+transfer lists:  12.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0080 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  12/4096          576/196608   ( 0.3%) 
+brushes                 27/32768         324/393216   ( 0.1%) 
+brushsides             208/65536        1664/524288   ( 0.3%) 
+planes                 346/65536        6920/1310720  ( 0.5%) 
+vertexes               371/65536        4452/786432   ( 0.6%) 
+nodes                  174/65536        5568/2097152  ( 0.3%) 
+texinfos                38/12288        2736/884736   ( 0.3%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  241/65536       13496/3670016  ( 0.4%) 
+hdr faces              241/65536       13496/3670016  ( 0.4%) 
+origfaces              103/65536        5768/3670016  ( 0.2%) 
+leaves                 187/65536        5984/2097152  ( 0.3%) 
+leaffaces              265/65536         530/131072   ( 0.4%) 
+leafbrushes             60/65536         120/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             1524/512000       6096/2048000  ( 0.3%) 
+edges                  791/256000       3164/1024000  ( 0.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/131072         30/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            51/131072        102/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1240664/0        ( 0.0%) 
+visdata               [variable]         662/16777216 ( 0.0%) 
+entdata               [variable]        9818/393216   ( 2.5%) 
+LDR ambient table      187/65536         748/262144   ( 0.3%) 
+HDR ambient table      187/65536         748/262144   ( 0.3%) 
+LDR leaf ambient       187/65536        5236/1835008  ( 0.3%) 
+HDR leaf ambient       117/65536        3276/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]       14402/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 594
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 20
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (14402 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 73 texinfos to 38
+Reduced 10 texdatas to 10 (242 bytes to 242)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  36 portalclusters
+  87 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 904
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 27
+visdatasize:662  compressed from 576
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+241 faces
+365750 square feet [52668020.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+241 patches before subdivision
+11923 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1683028, max 336
+transfer lists:  12.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0049 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  12/4096          576/196608   ( 0.3%) 
+brushes                 27/32768         324/393216   ( 0.1%) 
+brushsides             208/65536        1664/524288   ( 0.3%) 
+planes                 346/65536        6920/1310720  ( 0.5%) 
+vertexes               371/65536        4452/786432   ( 0.6%) 
+nodes                  174/65536        5568/2097152  ( 0.3%) 
+texinfos                38/12288        2736/884736   ( 0.3%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  241/65536       13496/3670016  ( 0.4%) 
+hdr faces              241/65536       13496/3670016  ( 0.4%) 
+origfaces              103/65536        5768/3670016  ( 0.2%) 
+leaves                 187/65536        5984/2097152  ( 0.3%) 
+leaffaces              265/65536         530/131072   ( 0.4%) 
+leafbrushes             60/65536         120/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             1524/512000       6096/2048000  ( 0.3%) 
+edges                  791/256000       3164/1024000  ( 0.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/131072         30/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            51/131072        102/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1240664/0        ( 0.0%) 
+visdata               [variable]         662/16777216 ( 0.0%) 
+entdata               [variable]        9878/393216   ( 2.5%) 
+LDR ambient table      187/65536         748/262144   ( 0.3%) 
+HDR ambient table      187/65536         748/262144   ( 0.3%) 
+LDR leaf ambient       187/65536        5236/1835008  ( 0.3%) 
+HDR leaf ambient       117/65536        3276/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]       14402/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 594
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 21
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12178 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 69 texinfos to 34
+Reduced 10 texdatas to 10 (242 bytes to 242)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  36 portalclusters
+  87 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 904
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 27
+visdatasize:662  compressed from 576
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+217 faces
+252068 square feet [36297844.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+217 patches before subdivision
+11899 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1681616, max 336
+transfer lists:  12.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0058 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/4096          384/196608   ( 0.2%) 
+brushes                 23/32768         276/393216   ( 0.1%) 
+brushsides             184/65536        1472/524288   ( 0.3%) 
+planes                 336/65536        6720/1310720  ( 0.5%) 
+vertexes               339/65536        4068/786432   ( 0.5%) 
+nodes                  150/65536        4800/2097152  ( 0.2%) 
+texinfos                34/12288        2448/884736   ( 0.3%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  217/65536       12152/3670016  ( 0.3%) 
+hdr faces              217/65536       12152/3670016  ( 0.3%) 
+origfaces               79/65536        4424/3670016  ( 0.1%) 
+leaves                 159/65536        5088/2097152  ( 0.2%) 
+leaffaces              241/65536         482/131072   ( 0.4%) 
+leafbrushes             56/65536         112/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             1332/512000       5328/2048000  ( 0.3%) 
+edges                  695/256000       2780/1024000  ( 0.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/131072         30/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            51/131072        102/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1240664/0        ( 0.0%) 
+visdata               [variable]         662/16777216 ( 0.0%) 
+entdata               [variable]        9001/393216   ( 2.3%) 
+LDR ambient table      159/65536         636/262144   ( 0.2%) 
+HDR ambient table      159/65536         636/262144   ( 0.2%) 
+LDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+HDR leaf ambient        93/65536        2604/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]       12178/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 546
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 23
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12178 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 69 texinfos to 34
+Reduced 10 texdatas to 10 (242 bytes to 242)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  36 portalclusters
+  87 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 904
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 27
+visdatasize:662  compressed from 576
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+217 faces
+252068 square feet [36297844.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+217 patches before subdivision
+11899 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1681616, max 336
+transfer lists:  12.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0048 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/4096          384/196608   ( 0.2%) 
+brushes                 23/32768         276/393216   ( 0.1%) 
+brushsides             184/65536        1472/524288   ( 0.3%) 
+planes                 336/65536        6720/1310720  ( 0.5%) 
+vertexes               339/65536        4068/786432   ( 0.5%) 
+nodes                  150/65536        4800/2097152  ( 0.2%) 
+texinfos                34/12288        2448/884736   ( 0.3%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  217/65536       12152/3670016  ( 0.3%) 
+hdr faces              217/65536       12152/3670016  ( 0.3%) 
+origfaces               79/65536        4424/3670016  ( 0.1%) 
+leaves                 159/65536        5088/2097152  ( 0.2%) 
+leaffaces              241/65536         482/131072   ( 0.4%) 
+leafbrushes             56/65536         112/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             1332/512000       5328/2048000  ( 0.3%) 
+edges                  695/256000       2780/1024000  ( 0.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/131072         30/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            51/131072        102/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1240664/0        ( 0.0%) 
+visdata               [variable]         662/16777216 ( 0.0%) 
+entdata               [variable]        9005/393216   ( 2.3%) 
+LDR ambient table      159/65536         636/262144   ( 0.2%) 
+HDR ambient table      159/65536         636/262144   ( 0.2%) 
+LDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+HDR leaf ambient        93/65536        2604/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]       12178/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 546
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 24
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12178 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 69 texinfos to 34
+Reduced 10 texdatas to 10 (242 bytes to 242)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  36 portalclusters
+  87 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 904
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 27
+visdatasize:662  compressed from 576
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+217 faces
+252068 square feet [36297844.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+217 patches before subdivision
+11899 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1681616, max 336
+transfer lists:  12.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0066 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/4096          384/196608   ( 0.2%) 
+brushes                 23/32768         276/393216   ( 0.1%) 
+brushsides             184/65536        1472/524288   ( 0.3%) 
+planes                 336/65536        6720/1310720  ( 0.5%) 
+vertexes               339/65536        4068/786432   ( 0.5%) 
+nodes                  150/65536        4800/2097152  ( 0.2%) 
+texinfos                34/12288        2448/884736   ( 0.3%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  217/65536       12152/3670016  ( 0.3%) 
+hdr faces              217/65536       12152/3670016  ( 0.3%) 
+origfaces               79/65536        4424/3670016  ( 0.1%) 
+leaves                 159/65536        5088/2097152  ( 0.2%) 
+leaffaces              241/65536         482/131072   ( 0.4%) 
+leafbrushes             56/65536         112/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             1332/512000       5328/2048000  ( 0.3%) 
+edges                  695/256000       2780/1024000  ( 0.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/131072         30/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            51/131072        102/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1240664/0        ( 0.0%) 
+visdata               [variable]         662/16777216 ( 0.0%) 
+entdata               [variable]        9005/393216   ( 2.3%) 
+LDR ambient table      159/65536         636/262144   ( 0.2%) 
+HDR ambient table      159/65536         636/262144   ( 0.2%) 
+LDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+HDR leaf ambient        93/65536        2604/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]       12178/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 546
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 26
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (12178 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 69 texinfos to 34
+Reduced 10 texdatas to 10 (242 bytes to 242)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  36 portalclusters
+  87 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 904
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 27
+visdatasize:662  compressed from 576
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+217 faces
+252068 square feet [36297844.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+217 patches before subdivision
+11899 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1681616, max 336
+transfer lists:  12.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0084 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/4096          384/196608   ( 0.2%) 
+brushes                 23/32768         276/393216   ( 0.1%) 
+brushsides             184/65536        1472/524288   ( 0.3%) 
+planes                 336/65536        6720/1310720  ( 0.5%) 
+vertexes               339/65536        4068/786432   ( 0.5%) 
+nodes                  150/65536        4800/2097152  ( 0.2%) 
+texinfos                34/12288        2448/884736   ( 0.3%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  217/65536       12152/3670016  ( 0.3%) 
+hdr faces              217/65536       12152/3670016  ( 0.3%) 
+origfaces               79/65536        4424/3670016  ( 0.1%) 
+leaves                 159/65536        5088/2097152  ( 0.2%) 
+leaffaces              241/65536         482/131072   ( 0.4%) 
+leafbrushes             56/65536         112/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             1332/512000       5328/2048000  ( 0.3%) 
+edges                  695/256000       2780/1024000  ( 0.3%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/131072         30/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            51/131072        102/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1240664/0        ( 0.0%) 
+visdata               [variable]         662/16777216 ( 0.0%) 
+entdata               [variable]        9038/393216   ( 2.3%) 
+LDR ambient table      159/65536         636/262144   ( 0.2%) 
+HDR ambient table      159/65536         636/262144   ( 0.2%) 
+LDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+HDR leaf ambient        93/65536        2604/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]       12178/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 546
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 27
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10136 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 57 texinfos to 28
+Reduced 10 texdatas to 10 (242 bytes to 242)
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  38 portalclusters
+  89 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 928
+Average clusters visible: 24
+Building PAS...
+Average clusters audible: 26
+visdatasize:660  compressed from 608
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+209 faces
+318988 square feet [45934332.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+209 patches before subdivision
+11891 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1678544, max 336
+transfer lists:  12.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0058 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/4096          240/196608   ( 0.1%) 
+brushes                 20/32768         240/393216   ( 0.1%) 
+brushsides             157/65536        1256/524288   ( 0.2%) 
+planes                 296/65536        5920/1310720  ( 0.5%) 
+vertexes               315/65536        3780/786432   ( 0.5%) 
+nodes                  138/65536        4416/2097152  ( 0.2%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  209/65536       11704/3670016  ( 0.3%) 
+hdr faces              209/65536       11704/3670016  ( 0.3%) 
+origfaces               63/65536        3528/3670016  ( 0.1%) 
+leaves                 144/65536        4608/2097152  ( 0.2%) 
+leaffaces              233/65536         466/131072   ( 0.4%) 
+leafbrushes             61/65536         122/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             1220/512000       4880/2048000  ( 0.2%) 
+edges                  639/256000       2556/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/131072         30/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            51/131072        102/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1240664/0        ( 0.0%) 
+visdata               [variable]         660/16777216 ( 0.0%) 
+entdata               [variable]        6487/393216   ( 1.6%) 
+LDR ambient table      144/65536         576/262144   ( 0.2%) 
+HDR ambient table      144/65536         576/262144   ( 0.2%) 
+LDR leaf ambient       144/65536        4032/1835008  ( 0.2%) 
+HDR leaf ambient        72/65536        2016/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]       10136/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 522
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 28
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10136 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 57 texinfos to 28
+Reduced 10 texdatas to 10 (242 bytes to 242)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  38 portalclusters
+  89 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 928
+Average clusters visible: 24
+Building PAS...
+Average clusters audible: 26
+visdatasize:660  compressed from 608
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+209 faces
+318988 square feet [45934332.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+209 patches before subdivision
+209 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 16063, max 133
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0054 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/4096          240/196608   ( 0.1%) 
+brushes                 20/32768         240/393216   ( 0.1%) 
+brushsides             157/65536        1256/524288   ( 0.2%) 
+planes                 296/65536        5920/1310720  ( 0.5%) 
+vertexes               315/65536        3780/786432   ( 0.5%) 
+nodes                  138/65536        4416/2097152  ( 0.2%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  209/65536       11704/3670016  ( 0.3%) 
+hdr faces              209/65536       11704/3670016  ( 0.3%) 
+origfaces               63/65536        3528/3670016  ( 0.1%) 
+leaves                 144/65536        4608/2097152  ( 0.2%) 
+leaffaces              233/65536         466/131072   ( 0.4%) 
+leafbrushes             61/65536         122/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             1220/512000       4880/2048000  ( 0.2%) 
+edges                  639/256000       2556/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/131072         30/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            51/131072        102/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1240664/0        ( 0.0%) 
+visdata               [variable]         660/16777216 ( 0.0%) 
+entdata               [variable]        6651/393216   ( 1.7%) 
+LDR ambient table      144/65536         576/262144   ( 0.2%) 
+HDR ambient table      144/65536         576/262144   ( 0.2%) 
+LDR leaf ambient       144/65536        4032/1835008  ( 0.2%) 
+HDR leaf ambient        72/65536        2016/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]       10136/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 522
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 29
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (10136 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 57 texinfos to 28
+Reduced 10 texdatas to 10 (242 bytes to 242)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  35 portalclusters
+  86 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 895
+Average clusters visible: 25
+Building PAS...
+Average clusters audible: 27
+visdatasize:618  compressed from 560
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+197 faces
+235619 square feet [33929172.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+197 patches before subdivision
+197 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 16063, max 133
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0079 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/4096          240/196608   ( 0.1%) 
+brushes                 20/32768         240/393216   ( 0.1%) 
+brushsides             157/65536        1256/524288   ( 0.2%) 
+planes                 294/65536        5880/1310720  ( 0.4%) 
+vertexes               303/65536        3636/786432   ( 0.5%) 
+nodes                  122/65536        3904/2097152  ( 0.2%) 
+texinfos                28/12288        2016/884736   ( 0.2%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  197/65536       11032/3670016  ( 0.3%) 
+hdr faces              197/65536       11032/3670016  ( 0.3%) 
+origfaces               63/65536        3528/3670016  ( 0.1%) 
+leaves                 128/65536        4096/2097152  ( 0.2%) 
+leaffaces              221/65536         442/131072   ( 0.3%) 
+leafbrushes             49/65536          98/131072   ( 0.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges             1172/512000       4688/2048000  ( 0.2%) 
+edges                  615/256000       2460/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/131072         30/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            51/131072        102/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1240664/0        ( 0.0%) 
+visdata               [variable]         618/16777216 ( 0.0%) 
+entdata               [variable]        6674/393216   ( 1.7%) 
+LDR ambient table      128/65536         512/262144   ( 0.2%) 
+HDR ambient table      128/65536         512/262144   ( 0.2%) 
+LDR leaf ambient       128/65536        3584/1835008  ( 0.2%) 
+HDR leaf ambient        69/65536        1932/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]       10136/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 498
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 30
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (6531 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 42 texinfos to 24
+Reduced 9 texdatas to 9 (222 bytes to 222)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+3 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 31
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6531 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 42 texinfos to 24
+Reduced 9 texdatas to 9 (222 bytes to 222)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  33 portalclusters
+  87 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1011
+Average clusters visible: 30
+Building PAS...
+Average clusters audible: 33
+visdatasize:601  compressed from 528
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+169 faces
+128046 square feet [18438666.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+169 patches before subdivision
+169 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 15788, max 131
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0064 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/4096          144/196608   ( 0.1%) 
+brushes                 12/32768         144/393216   ( 0.0%) 
+brushsides             100/65536         800/524288   ( 0.2%) 
+planes                 202/65536        4040/1310720  ( 0.3%) 
+vertexes               248/65536        2976/786432   ( 0.4%) 
+nodes                   86/65536        2752/2097152  ( 0.1%) 
+texinfos                24/12288        1728/884736   ( 0.2%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  169/65536        9464/3670016  ( 0.3%) 
+hdr faces              169/65536        9464/3670016  ( 0.3%) 
+origfaces               47/65536        2632/3670016  ( 0.1%) 
+leaves                  90/65536        2880/2097152  ( 0.1%) 
+leaffaces              239/65536         478/131072   ( 0.4%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              984/512000       3936/2048000  ( 0.2%) 
+edges                  513/256000       2052/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/131072         30/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            45/131072         90/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1262728/0        ( 0.0%) 
+visdata               [variable]         601/16777216 ( 0.0%) 
+entdata               [variable]        4546/393216   ( 1.2%) 
+LDR ambient table       90/65536         360/262144   ( 0.1%) 
+HDR ambient table       90/65536         360/262144   ( 0.1%) 
+LDR leaf ambient        90/65536        2520/1835008  ( 0.1%) 
+HDR leaf ambient        50/65536        1400/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        6531/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 438
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 32
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6531 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 42 texinfos to 24
+Reduced 9 texdatas to 9 (222 bytes to 222)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  33 portalclusters
+  87 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1011
+Average clusters visible: 30
+Building PAS...
+Average clusters audible: 33
+visdatasize:601  compressed from 528
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+169 faces
+128046 square feet [18438666.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+169 patches before subdivision
+169 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 15788, max 131
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0083 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/4096          144/196608   ( 0.1%) 
+brushes                 12/32768         144/393216   ( 0.0%) 
+brushsides             100/65536         800/524288   ( 0.2%) 
+planes                 202/65536        4040/1310720  ( 0.3%) 
+vertexes               248/65536        2976/786432   ( 0.4%) 
+nodes                   86/65536        2752/2097152  ( 0.1%) 
+texinfos                24/12288        1728/884736   ( 0.2%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  169/65536        9464/3670016  ( 0.3%) 
+hdr faces              169/65536        9464/3670016  ( 0.3%) 
+origfaces               47/65536        2632/3670016  ( 0.1%) 
+leaves                  90/65536        2880/2097152  ( 0.1%) 
+leaffaces              239/65536         478/131072   ( 0.4%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              984/512000       3936/2048000  ( 0.2%) 
+edges                  513/256000       2052/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/131072         30/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            45/131072         90/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1262728/0        ( 0.0%) 
+visdata               [variable]         601/16777216 ( 0.0%) 
+entdata               [variable]        4546/393216   ( 1.2%) 
+LDR ambient table       90/65536         360/262144   ( 0.1%) 
+HDR ambient table       90/65536         360/262144   ( 0.1%) 
+LDR leaf ambient        90/65536        2520/1835008  ( 0.1%) 
+HDR leaf ambient        50/65536        1400/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        6531/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 438
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.vmf
+Map revision 33
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (6531 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 42 texinfos to 24
+Reduced 9 texdatas to 9 (222 bytes to 222)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.prt
+  33 portalclusters
+  87 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 1011
+Average clusters visible: 30
+Building PAS...
+Average clusters audible: 33
+visdatasize:601  compressed from 528
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+169 faces
+128046 square feet [18438666.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+169 patches before subdivision
+169 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 15788, max 131
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0052 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/4096          144/196608   ( 0.1%) 
+brushes                 12/32768         144/393216   ( 0.0%) 
+brushsides             100/65536         800/524288   ( 0.2%) 
+planes                 202/65536        4040/1310720  ( 0.3%) 
+vertexes               248/65536        2976/786432   ( 0.4%) 
+nodes                   86/65536        2752/2097152  ( 0.1%) 
+texinfos                24/12288        1728/884736   ( 0.2%) 
+texdata                  9/2048          288/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  169/65536        9464/3670016  ( 0.3%) 
+hdr faces              169/65536        9464/3670016  ( 0.3%) 
+origfaces               47/65536        2632/3670016  ( 0.1%) 
+leaves                  90/65536        2880/2097152  ( 0.1%) 
+leaffaces              239/65536         478/131072   ( 0.4%) 
+leafbrushes             29/65536          58/131072   ( 0.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges              984/512000       3936/2048000  ( 0.2%) 
+edges                  513/256000       2052/1024000  ( 0.2%) 
+LDR worldlights          0/16384           0/1441792  ( 0.0%) 
+HDR worldlights          0/16384           0/1441792  ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              3/131072         30/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices            45/131072         90/262144   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]           0/0        ( 0.0%) 
+HDR lightdata         [variable]     1262728/0        ( 0.0%) 
+visdata               [variable]         601/16777216 ( 0.0%) 
+entdata               [variable]        4458/393216   ( 1.1%) 
+LDR ambient table       90/65536         360/262144   ( 0.1%) 
+HDR ambient table       90/65536         360/262144   ( 0.1%) 
+LDR leaf ambient        90/65536        2520/1835008  ( 0.1%) 
+HDR leaf ambient        50/65536        1400/1835008  ( 0.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86778/0        ( 0.0%) 
+physics               [variable]        6531/4194304  ( 0.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 438
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\funnel_experiment.bsp
+1 second elapsed

@@ -1,0 +1,2970 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15417 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 59 texinfos to 41
+Reduced 12 texdatas to 12 (332 bytes to 332)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+ 104 portalclusters
+ 293 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2 visible clusters (0.03%)
+Total clusters visible: 7304
+Average clusters visible: 70
+Building PAS...
+Average clusters audible: 104
+visdatasize:3492  compressed from 3328
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+292 faces
+52124 square feet [7505894.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+292 patches before subdivision
+7020 patches after subdivision
+60 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 926576, max 422
+transfer lists:   7.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(52127, 4475, 387)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11006, 811, 63)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2529, 162, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(591, 33, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(140, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(33, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0036 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+14 of 60 (23% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 37/8192          444/98304    ( 0.5%) 
+brushsides             267/65536        2136/524288   ( 0.4%) 
+planes                 214/65536        4280/1310720  ( 0.3%) 
+vertexes               405/65536        4860/786432   ( 0.6%) 
+nodes                  173/65536        5536/2097152  ( 0.3%) 
+texinfos                41/12288        2952/884736   ( 0.3%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  292/65536       16352/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              113/65536        6328/3670016  ( 0.2%) 
+leaves                 175/65536        5600/2097152  ( 0.3%) 
+leaffaces              350/65536         700/131072   ( 0.5%) 
+leafbrushes            102/65536         204/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1812/512000       7248/2048000  ( 0.4%) 
+edges                 1074/256000       4296/1024000  ( 0.4%) 
+LDR worldlights         60/8192         5280/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              6/32768          60/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            96/65536         192/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      536416/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3492/16777216 ( 0.0%) 
+entdata               [variable]        2793/393216   ( 0.7%) 
+LDR ambient table      175/65536         700/262144   ( 0.3%) 
+HDR ambient table      175/65536         700/262144   ( 0.3%) 
+LDR leaf ambient       632/65536       17696/1835008  ( 1.0%) 
+HDR leaf ambient       175/65536        4900/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105667/0        ( 0.0%) 
+physics               [variable]       15417/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 746
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+5 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (15417 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 59 texinfos to 41
+Reduced 12 texdatas to 12 (332 bytes to 332)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+ 104 portalclusters
+ 293 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2 visible clusters (0.03%)
+Total clusters visible: 7304
+Average clusters visible: 70
+Building PAS...
+Average clusters audible: 104
+visdatasize:3492  compressed from 3328
+writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+292 faces
+52124 square feet [7505894.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+292 patches before subdivision
+7020 patches after subdivision
+60 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 926576, max 422
+transfer lists:   7.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(52127, 4475, 387)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(11006, 811, 63)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2529, 162, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(591, 33, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(140, 7, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(33, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0027 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+14 of 60 (23% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 37/8192          444/98304    ( 0.5%) 
+brushsides             267/65536        2136/524288   ( 0.4%) 
+planes                 214/65536        4280/1310720  ( 0.3%) 
+vertexes               405/65536        4860/786432   ( 0.6%) 
+nodes                  173/65536        5536/2097152  ( 0.3%) 
+texinfos                41/12288        2952/884736   ( 0.3%) 
+texdata                 12/2048          384/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  292/65536       16352/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              113/65536        6328/3670016  ( 0.2%) 
+leaves                 175/65536        5600/2097152  ( 0.3%) 
+leaffaces              350/65536         700/131072   ( 0.5%) 
+leafbrushes            102/65536         204/131072   ( 0.2%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1812/512000       7248/2048000  ( 0.4%) 
+edges                 1074/256000       4296/1024000  ( 0.4%) 
+LDR worldlights         60/8192         5280/720896   ( 0.7%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              6/32768          60/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            96/65536         192/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      536416/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        3492/16777216 ( 0.0%) 
+entdata               [variable]        2793/393216   ( 0.7%) 
+LDR ambient table      175/65536         700/262144   ( 0.3%) 
+HDR ambient table      175/65536         700/262144   ( 0.3%) 
+LDR leaf ambient       632/65536       17696/1835008  ( 1.0%) 
+HDR leaf ambient       175/65536        4900/1835008  ( 0.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105667/0        ( 0.0%) 
+physics               [variable]       15417/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 746
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16401 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 64 texinfos to 42
+Reduced 13 texdatas to 13 (352 bytes to 352)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+No vis information, direct lighting only.
+361 faces
+44431 square feet [6398184.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0016 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 40/8192          480/98304    ( 0.5%) 
+brushsides             282/65536        2256/524288   ( 0.4%) 
+planes                 220/65536        4400/1310720  ( 0.3%) 
+vertexes               507/65536        6084/786432   ( 0.8%) 
+nodes                  321/65536       10272/2097152  ( 0.5%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                 13/2048          416/65536    ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  361/65536       20216/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              137/65536        7672/3670016  ( 0.2%) 
+leaves                 323/65536       10336/2097152  ( 0.5%) 
+leaffaces              431/65536         862/131072   ( 0.7%) 
+leafbrushes            127/65536         254/131072   ( 0.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2144/512000       8576/2048000  ( 0.4%) 
+edges                 1266/256000       5064/1024000  ( 0.5%) 
+LDR worldlights         12/8192         1056/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             14/32768         140/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           204/65536         408/131072   ( 0.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      457176/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        2862/393216   ( 0.7%) 
+LDR ambient table      323/65536        1292/262144   ( 0.5%) 
+HDR ambient table      323/65536        1292/262144   ( 0.5%) 
+LDR leaf ambient      1473/65536       41244/1835008  ( 2.2%) 
+HDR leaf ambient       323/65536        9044/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105667/0        ( 0.0%) 
+physics               [variable]       16401/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 844
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16369 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 64 texinfos to 42
+Reduced 14 texdatas to 14 (390 bytes to 390)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+No vis information, direct lighting only.
+355 faces
+44110 square feet [6351867.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+12 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0064 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 40/8192          480/98304    ( 0.5%) 
+brushsides             282/65536        2256/524288   ( 0.4%) 
+planes                 220/65536        4400/1310720  ( 0.3%) 
+vertexes               527/65536        6324/786432   ( 0.8%) 
+nodes                  336/65536       10752/2097152  ( 0.5%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                 14/2048          448/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  355/65536       19880/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              130/65536        7280/3670016  ( 0.2%) 
+leaves                 338/65536       10816/2097152  ( 0.5%) 
+leaffaces              425/65536         850/131072   ( 0.6%) 
+leafbrushes            131/65536         262/131072   ( 0.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2094/512000       8376/2048000  ( 0.4%) 
+edges                 1217/256000       4868/1024000  ( 0.5%) 
+LDR worldlights         12/8192         1056/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           246/65536         492/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      458432/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        2862/393216   ( 0.7%) 
+LDR ambient table      338/65536        1352/262144   ( 0.5%) 
+HDR ambient table      338/65536        1352/262144   ( 0.5%) 
+LDR leaf ambient      1544/65536       43232/1835008  ( 2.4%) 
+HDR leaf ambient       338/65536        9464/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105667/0        ( 0.0%) 
+physics               [variable]       16369/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 834
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (16369 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 64 texinfos to 42
+Reduced 14 texdatas to 14 (390 bytes to 390)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+No vis information, direct lighting only.
+355 faces
+44110 square feet [6351867.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 40/8192          480/98304    ( 0.5%) 
+brushsides             282/65536        2256/524288   ( 0.4%) 
+planes                 220/65536        4400/1310720  ( 0.3%) 
+vertexes               527/65536        6324/786432   ( 0.8%) 
+nodes                  336/65536       10752/2097152  ( 0.5%) 
+texinfos                42/12288        3024/884736   ( 0.3%) 
+texdata                 14/2048          448/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  355/65536       19880/3670016  ( 0.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              130/65536        7280/3670016  ( 0.2%) 
+leaves                 338/65536       10816/2097152  ( 0.5%) 
+leaffaces              425/65536         850/131072   ( 0.6%) 
+leafbrushes            131/65536         262/131072   ( 0.2%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             2094/512000       8376/2048000  ( 0.4%) 
+edges                 1217/256000       4868/1024000  ( 0.5%) 
+LDR worldlights         13/8192         1144/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           246/65536         492/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      458432/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        3211/393216   ( 0.8%) 
+LDR ambient table      338/65536        1352/262144   ( 0.5%) 
+HDR ambient table      338/65536        1352/262144   ( 0.5%) 
+LDR leaf ambient      2031/65536       56868/1835008  ( 3.1%) 
+HDR leaf ambient       338/65536        9464/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105667/0        ( 0.0%) 
+physics               [variable]       16369/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 834
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20441 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 68 texinfos to 45
+Reduced 16 texdatas to 15 (469 bytes to 419)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+No vis information, direct lighting only.
+386 faces
+36776 square feet [5295876.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             381/65536        3048/524288   ( 0.6%) 
+planes                 284/65536        5680/1310720  ( 0.4%) 
+vertexes               617/65536        7404/786432   ( 0.9%) 
+nodes                  377/65536       12064/2097152  ( 0.6%) 
+texinfos                45/12288        3240/884736   ( 0.4%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  386/65536       21616/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              153/65536        8568/3670016  ( 0.2%) 
+leaves                 379/65536       12128/2097152  ( 0.6%) 
+leaffaces              481/65536         962/131072   ( 0.7%) 
+leafbrushes            185/65536         370/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2334/512000       9336/2048000  ( 0.5%) 
+edges                 1373/256000       5492/1024000  ( 0.5%) 
+LDR worldlights         13/8192         1144/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           240/65536         480/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      398892/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        3298/393216   ( 0.8%) 
+LDR ambient table      379/65536        1516/262144   ( 0.6%) 
+HDR ambient table      379/65536        1516/262144   ( 0.6%) 
+LDR leaf ambient      1859/65536       52052/1835008  ( 2.8%) 
+HDR leaf ambient       379/65536       10612/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/220      ( 0.5%) 
+pakfile               [variable]      211581/0        ( 0.0%) 
+physics               [variable]       20441/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 926
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20441 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 68 texinfos to 45
+Reduced 16 texdatas to 15 (469 bytes to 419)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+No vis information, direct lighting only.
+386 faces
+36776 square feet [5295876.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+14 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             381/65536        3048/524288   ( 0.6%) 
+planes                 284/65536        5680/1310720  ( 0.4%) 
+vertexes               617/65536        7404/786432   ( 0.9%) 
+nodes                  377/65536       12064/2097152  ( 0.6%) 
+texinfos                45/12288        3240/884736   ( 0.4%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  386/65536       21616/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              153/65536        8568/3670016  ( 0.2%) 
+leaves                 379/65536       12128/2097152  ( 0.6%) 
+leaffaces              481/65536         962/131072   ( 0.7%) 
+leafbrushes            185/65536         370/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2334/512000       9336/2048000  ( 0.5%) 
+edges                 1373/256000       5492/1024000  ( 0.5%) 
+LDR worldlights         14/8192         1232/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           240/65536         480/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      398892/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        3424/393216   ( 0.9%) 
+LDR ambient table      379/65536        1516/262144   ( 0.6%) 
+HDR ambient table      379/65536        1516/262144   ( 0.6%) 
+LDR leaf ambient      2380/65536       66640/1835008  ( 3.6%) 
+HDR leaf ambient       379/65536       10612/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/220      ( 0.5%) 
+pakfile               [variable]      211581/0        ( 0.0%) 
+physics               [variable]       20441/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 926
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (20441 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 68 texinfos to 45
+Reduced 16 texdatas to 15 (469 bytes to 419)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+No vis information, direct lighting only.
+386 faces
+36776 square feet [5295876.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 53/8192          636/98304    ( 0.6%) 
+brushsides             381/65536        3048/524288   ( 0.6%) 
+planes                 284/65536        5680/1310720  ( 0.4%) 
+vertexes               617/65536        7404/786432   ( 0.9%) 
+nodes                  377/65536       12064/2097152  ( 0.6%) 
+texinfos                45/12288        3240/884736   ( 0.4%) 
+texdata                 15/2048          480/65536    ( 0.7%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  386/65536       21616/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              153/65536        8568/3670016  ( 0.2%) 
+leaves                 379/65536       12128/2097152  ( 0.6%) 
+leaffaces              481/65536         962/131072   ( 0.7%) 
+leafbrushes            185/65536         370/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             2334/512000       9336/2048000  ( 0.5%) 
+edges                 1373/256000       5492/1024000  ( 0.5%) 
+LDR worldlights         15/8192         1320/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             16/32768         160/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           240/65536         480/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      398892/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        3620/393216   ( 0.9%) 
+LDR ambient table      379/65536        1516/262144   ( 0.6%) 
+HDR ambient table      379/65536        1516/262144   ( 0.6%) 
+LDR leaf ambient      2386/65536       66808/1835008  ( 3.6%) 
+HDR leaf ambient       379/65536       10612/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/220      ( 0.5%) 
+pakfile               [variable]      211581/0        ( 0.0%) 
+physics               [variable]       20441/4194304  ( 0.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 926
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29089 bytes)
+Error! To use model "models/props/door_01_lftdoor_reference.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props/door_01_lftdoor_reference.mdl"!
+Error! To use model "models/props/door_01_rtdoor_reference.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props/door_01_rtdoor_reference.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 108 texinfos to 73
+Reduced 18 texdatas to 16 (532 bytes to 436)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+No vis information, direct lighting only.
+590 faces
+40746 square feet [5867497.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0016 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 62/8192          744/98304    ( 0.8%) 
+brushsides             524/65536        4192/524288   ( 0.8%) 
+planes                 398/65536        7960/1310720  ( 0.6%) 
+vertexes               985/65536       11820/786432   ( 1.5%) 
+nodes                  489/65536       15648/2097152  ( 0.7%) 
+texinfos                73/12288        5256/884736   ( 0.6%) 
+texdata                 16/2048          512/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  590/65536       33040/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              247/65536       13832/3670016  ( 0.4%) 
+leaves                 491/65536       15712/2097152  ( 0.7%) 
+leaffaces              720/65536        1440/131072   ( 1.1%) 
+leafbrushes            222/65536         444/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3783/512000      15132/2048000  ( 0.7%) 
+edges                 2167/256000       8668/1024000  ( 0.8%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             48/32768         480/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           690/65536        1380/131072   ( 1.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      497996/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        4028/393216   ( 1.0%) 
+LDR ambient table      491/65536        1964/262144   ( 0.7%) 
+HDR ambient table      491/65536        1964/262144   ( 0.7%) 
+LDR leaf ambient      2648/65536       74144/1835008  ( 4.0%) 
+HDR leaf ambient       491/65536       13748/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/432      ( 0.2%) 
+pakfile               [variable]      211902/0        ( 0.0%) 
+physics               [variable]       29089/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1533
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29678 bytes)
+Error! To use model "models/props/door_01_lftdoor_reference.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props/door_01_lftdoor_reference.mdl"!
+Error! To use model "models/props/door_01_rtdoor_reference.mdl"
+      with prop_static, it must be compiled with $staticprop!
+Error loading studio model "models/props/door_01_rtdoor_reference.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 110 texinfos to 75
+Reduced 20 texdatas to 17 (611 bytes to 465)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+0 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+No vis information, direct lighting only.
+608 faces
+41280 square feet [5944352.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 62/8192          744/98304    ( 0.8%) 
+brushsides             535/65536        4280/524288   ( 0.8%) 
+planes                 422/65536        8440/1310720  ( 0.6%) 
+vertexes              1008/65536       12096/786432   ( 1.5%) 
+nodes                  493/65536       15776/2097152  ( 0.8%) 
+texinfos                75/12288        5400/884736   ( 0.6%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  608/65536       34048/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              254/65536       14224/3670016  ( 0.4%) 
+leaves                 495/65536       15840/2097152  ( 0.8%) 
+leaffaces              745/65536        1490/131072   ( 1.1%) 
+leafbrushes            220/65536         440/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3918/512000      15672/2048000  ( 0.8%) 
+edges                 2257/256000       9028/1024000  ( 0.9%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             48/32768         480/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           693/65536        1386/131072   ( 1.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      510652/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        4028/393216   ( 1.0%) 
+LDR ambient table      495/65536        1980/262144   ( 0.8%) 
+HDR ambient table      495/65536        1980/262144   ( 0.8%) 
+LDR leaf ambient      2663/65536       74564/1835008  ( 4.1%) 
+HDR leaf ambient       495/65536       13860/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/424      ( 0.2%) 
+pakfile               [variable]      212235/0        ( 0.0%) 
+physics               [variable]       29678/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1598
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29678 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 110 texinfos to 75
+Reduced 20 texdatas to 17 (611 bytes to 465)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+No vis information, direct lighting only.
+608 faces
+41280 square feet [5944352.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+17 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0016 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 62/8192          744/98304    ( 0.8%) 
+brushsides             535/65536        4280/524288   ( 0.8%) 
+planes                 422/65536        8440/1310720  ( 0.6%) 
+vertexes              1008/65536       12096/786432   ( 1.5%) 
+nodes                  493/65536       15776/2097152  ( 0.8%) 
+texinfos                75/12288        5400/884736   ( 0.6%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  608/65536       34048/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              254/65536       14224/3670016  ( 0.4%) 
+leaves                 495/65536       15840/2097152  ( 0.8%) 
+leaffaces              745/65536        1490/131072   ( 1.1%) 
+leafbrushes            220/65536         440/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3918/512000      15672/2048000  ( 0.8%) 
+edges                 2257/256000       9028/1024000  ( 0.9%) 
+LDR worldlights         17/8192         1496/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             48/32768         480/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           693/65536        1386/131072   ( 1.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      510652/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5293/393216   ( 1.3%) 
+LDR ambient table      495/65536        1980/262144   ( 0.8%) 
+HDR ambient table      495/65536        1980/262144   ( 0.8%) 
+LDR leaf ambient      2676/65536       74928/1835008  ( 4.1%) 
+HDR leaf ambient       495/65536       13860/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/620      ( 0.2%) 
+pakfile               [variable]      212235/0        ( 0.0%) 
+physics               [variable]       29678/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1598
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (28622 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 107 texinfos to 72
+Reduced 20 texdatas to 17 (611 bytes to 465)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+No vis information, direct lighting only.
+585 faces
+37150 square feet [5349664.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+17 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 62/8192          744/98304    ( 0.8%) 
+brushsides             520/65536        4160/524288   ( 0.8%) 
+planes                 392/65536        7840/1310720  ( 0.6%) 
+vertexes               951/65536       11412/786432   ( 1.5%) 
+nodes                  470/65536       15040/2097152  ( 0.7%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  585/65536       32760/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              245/65536       13720/3670016  ( 0.4%) 
+leaves                 472/65536       15104/2097152  ( 0.7%) 
+leaffaces              717/65536        1434/131072   ( 1.1%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3728/512000      14912/2048000  ( 0.7%) 
+edges                 2136/256000       8544/1024000  ( 0.8%) 
+LDR worldlights         17/8192         1496/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             46/32768         460/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           651/65536        1302/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      445616/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5315/393216   ( 1.4%) 
+LDR ambient table      472/65536        1888/262144   ( 0.7%) 
+HDR ambient table      472/65536        1888/262144   ( 0.7%) 
+LDR leaf ambient      2478/65536       69384/1835008  ( 3.8%) 
+HDR leaf ambient       472/65536       13216/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/620      ( 0.2%) 
+pakfile               [variable]      212235/0        ( 0.0%) 
+physics               [variable]       28622/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1512
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (28622 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 107 texinfos to 72
+Reduced 20 texdatas to 17 (611 bytes to 465)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+No vis information, direct lighting only.
+585 faces
+37150 square feet [5349664.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+17 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0014 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 62/8192          744/98304    ( 0.8%) 
+brushsides             520/65536        4160/524288   ( 0.8%) 
+planes                 392/65536        7840/1310720  ( 0.6%) 
+vertexes               951/65536       11412/786432   ( 1.5%) 
+nodes                  470/65536       15040/2097152  ( 0.7%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  585/65536       32760/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              245/65536       13720/3670016  ( 0.4%) 
+leaves                 472/65536       15104/2097152  ( 0.7%) 
+leaffaces              717/65536        1434/131072   ( 1.1%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3728/512000      14912/2048000  ( 0.7%) 
+edges                 2136/256000       8544/1024000  ( 0.8%) 
+LDR worldlights         17/8192         1496/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             46/32768         460/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           651/65536        1302/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      445616/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5315/393216   ( 1.4%) 
+LDR ambient table      472/65536        1888/262144   ( 0.7%) 
+HDR ambient table      472/65536        1888/262144   ( 0.7%) 
+LDR leaf ambient      2478/65536       69384/1835008  ( 3.8%) 
+HDR leaf ambient       472/65536       13216/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/620      ( 0.2%) 
+pakfile               [variable]      212235/0        ( 0.0%) 
+physics               [variable]       28622/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1512
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+1 second elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29582 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 107 texinfos to 72
+Reduced 20 texdatas to 17 (611 bytes to 465)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+No vis information, direct lighting only.
+615 faces
+37059 square feet [5336583.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 62/8192          744/98304    ( 0.8%) 
+brushsides             531/65536        4248/524288   ( 0.8%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               993/65536       11916/786432   ( 1.5%) 
+nodes                  480/65536       15360/2097152  ( 0.7%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  615/65536       34440/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              255/65536       14280/3670016  ( 0.4%) 
+leaves                 482/65536       15424/2097152  ( 0.7%) 
+leaffaces              764/65536        1528/131072   ( 1.2%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3938/512000      15752/2048000  ( 0.8%) 
+edges                 2264/256000       9056/1024000  ( 0.9%) 
+LDR worldlights         20/8192         1760/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             47/32768         470/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           663/65536        1326/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      458664/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5848/393216   ( 1.5%) 
+LDR ambient table      482/65536        1928/262144   ( 0.7%) 
+HDR ambient table      482/65536        1928/262144   ( 0.7%) 
+LDR leaf ambient      2514/65536       70392/1835008  ( 3.8%) 
+HDR leaf ambient       482/65536       13496/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/658      ( 0.2%) 
+pakfile               [variable]      212235/0        ( 0.0%) 
+physics               [variable]       29582/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1612
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29582 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 105 texinfos to 67
+Reduced 20 texdatas to 17 (611 bytes to 465)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+1 second elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+No vis information, direct lighting only.
+615 faces
+37059 square feet [5336583.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 62/8192          744/98304    ( 0.8%) 
+brushsides             531/65536        4248/524288   ( 0.8%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               993/65536       11916/786432   ( 1.5%) 
+nodes                  480/65536       15360/2097152  ( 0.7%) 
+texinfos                67/12288        4824/884736   ( 0.5%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  615/65536       34440/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              255/65536       14280/3670016  ( 0.4%) 
+leaves                 482/65536       15424/2097152  ( 0.7%) 
+leaffaces              764/65536        1528/131072   ( 1.2%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3938/512000      15752/2048000  ( 0.8%) 
+edges                 2264/256000       9056/1024000  ( 0.9%) 
+LDR worldlights         20/8192         1760/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             47/32768         470/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           663/65536        1326/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      458664/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5848/393216   ( 1.5%) 
+LDR ambient table      482/65536        1928/262144   ( 0.7%) 
+HDR ambient table      482/65536        1928/262144   ( 0.7%) 
+LDR leaf ambient      2514/65536       70392/1835008  ( 3.8%) 
+HDR leaf ambient       482/65536       13496/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/658      ( 0.2%) 
+pakfile               [variable]      212235/0        ( 0.0%) 
+physics               [variable]       29582/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1612
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29582 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 105 texinfos to 67
+Reduced 21 texdatas to 17 (641 bytes to 469)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+4 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+No vis information, direct lighting only.
+615 faces
+37059 square feet [5336583.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0060 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 62/8192          744/98304    ( 0.8%) 
+brushsides             531/65536        4248/524288   ( 0.8%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               993/65536       11916/786432   ( 1.5%) 
+nodes                  480/65536       15360/2097152  ( 0.7%) 
+texinfos                67/12288        4824/884736   ( 0.5%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  615/65536       34440/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              255/65536       14280/3670016  ( 0.4%) 
+leaves                 482/65536       15424/2097152  ( 0.7%) 
+leaffaces              764/65536        1528/131072   ( 1.2%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3938/512000      15752/2048000  ( 0.8%) 
+edges                 2264/256000       9056/1024000  ( 0.9%) 
+LDR worldlights         20/8192         1760/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             47/32768         470/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           663/65536        1326/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      458664/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5848/393216   ( 1.5%) 
+LDR ambient table      482/65536        1928/262144   ( 0.7%) 
+HDR ambient table      482/65536        1928/262144   ( 0.7%) 
+LDR leaf ambient      2516/65536       70448/1835008  ( 3.8%) 
+HDR leaf ambient       482/65536       13496/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/658      ( 0.2%) 
+pakfile               [variable]      212235/0        ( 0.0%) 
+physics               [variable]       29582/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1612
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+3 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal\portal\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\portal\portal\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (29582 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 105 texinfos to 67
+Reduced 21 texdatas to 17 (641 bytes to 469)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+2 seconds elapsed
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+No vis information, direct lighting only.
+615 faces
+37059 square feet [5336583.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0016 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 62/8192          744/98304    ( 0.8%) 
+brushsides             531/65536        4248/524288   ( 0.8%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               993/65536       11916/786432   ( 1.5%) 
+nodes                  480/65536       15360/2097152  ( 0.7%) 
+texinfos                67/12288        4824/884736   ( 0.5%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  615/65536       34440/3670016  ( 0.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              255/65536       14280/3670016  ( 0.4%) 
+leaves                 482/65536       15424/2097152  ( 0.7%) 
+leaffaces              764/65536        1528/131072   ( 1.2%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             3938/512000      15752/2048000  ( 0.8%) 
+edges                 2264/256000       9056/1024000  ( 0.9%) 
+LDR worldlights         20/8192         1760/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             47/32768         470/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           663/65536        1326/131072   ( 1.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      458664/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5848/393216   ( 1.5%) 
+LDR ambient table      482/65536        1928/262144   ( 0.7%) 
+HDR ambient table      482/65536        1928/262144   ( 0.7%) 
+LDR leaf ambient      2516/65536       70448/1835008  ( 3.8%) 
+HDR leaf ambient       482/65536       13496/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/658      ( 0.2%) 
+pakfile               [variable]      212235/0        ( 0.0%) 
+physics               [variable]       29582/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 1612
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+2 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+Map revision 35
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\maps\source\sph_awake.vmf
+Map revision 36
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\maps\source\sph_awake.prt
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.vmf
+Map revision 36
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.vmf
+Map revision 37
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+No vis information, direct lighting only.
+615 faces
+37059 square feet [5336583.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0013 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 62/32768         744/393216   ( 0.2%) 
+brushsides             531/65536        4248/524288   ( 0.8%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               993/65536       11916/786432   ( 1.5%) 
+nodes                  480/65536       15360/2097152  ( 0.7%) 
+texinfos                67/12288        4824/884736   ( 0.5%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  615/65536       34440/3670016  ( 0.9%) 
+hdr faces              615/65536       34440/3670016  ( 0.9%) 
+origfaces              255/65536       14280/3670016  ( 0.4%) 
+leaves                 482/65536       15424/2097152  ( 0.7%) 
+leaffaces              764/65536        1528/131072   ( 1.2%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3938/512000      15752/2048000  ( 0.8%) 
+edges                 2264/256000       9056/1024000  ( 0.9%) 
+LDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+HDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             47/131072        470/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           663/131072       1326/262144   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      458664/0        ( 0.0%) 
+HDR lightdata         [variable]      458664/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5848/393216   ( 1.5%) 
+LDR ambient table      482/65536        1928/262144   ( 0.7%) 
+HDR ambient table      482/65536        1928/262144   ( 0.7%) 
+LDR leaf ambient      2516/65536       70448/1835008  ( 3.8%) 
+HDR leaf ambient      2507/65536       70196/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/658      ( 0.2%) 
+pakfile               [variable]      237623/0        ( 0.0%) 
+physics               [variable]       29582/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 1612
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+3 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.vmf
+Map revision 37
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+No vis information, direct lighting only.
+615 faces
+37059 square feet [5336583.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 62/32768         744/393216   ( 0.2%) 
+brushsides             531/65536        4248/524288   ( 0.8%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               993/65536       11916/786432   ( 1.5%) 
+nodes                  480/65536       15360/2097152  ( 0.7%) 
+texinfos                67/12288        4824/884736   ( 0.5%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  615/65536       34440/3670016  ( 0.9%) 
+hdr faces              615/65536       34440/3670016  ( 0.9%) 
+origfaces              255/65536       14280/3670016  ( 0.4%) 
+leaves                 482/65536       15424/2097152  ( 0.7%) 
+leaffaces              764/65536        1528/131072   ( 1.2%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3938/512000      15752/2048000  ( 0.8%) 
+edges                 2264/256000       9056/1024000  ( 0.9%) 
+LDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+HDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             47/131072        470/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           663/131072       1326/262144   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      458664/0        ( 0.0%) 
+HDR lightdata         [variable]      458664/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5848/393216   ( 1.5%) 
+LDR ambient table      482/65536        1928/262144   ( 0.7%) 
+HDR ambient table      482/65536        1928/262144   ( 0.7%) 
+LDR leaf ambient      2516/65536       70448/1835008  ( 3.8%) 
+HDR leaf ambient      2507/65536       70196/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/658      ( 0.2%) 
+pakfile               [variable]      237623/0        ( 0.0%) 
+physics               [variable]       29582/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 1612
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+3 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.vmf
+Map revision 37
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+No vis information, direct lighting only.
+615 faces
+37059 square feet [5336583.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0016 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 62/32768         744/393216   ( 0.2%) 
+brushsides             531/65536        4248/524288   ( 0.8%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               993/65536       11916/786432   ( 1.5%) 
+nodes                  480/65536       15360/2097152  ( 0.7%) 
+texinfos                67/12288        4824/884736   ( 0.5%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  615/65536       34440/3670016  ( 0.9%) 
+hdr faces              615/65536       34440/3670016  ( 0.9%) 
+origfaces              255/65536       14280/3670016  ( 0.4%) 
+leaves                 482/65536       15424/2097152  ( 0.7%) 
+leaffaces              764/65536        1528/131072   ( 1.2%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3938/512000      15752/2048000  ( 0.8%) 
+edges                 2264/256000       9056/1024000  ( 0.9%) 
+LDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+HDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             47/131072        470/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           663/131072       1326/262144   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      458664/0        ( 0.0%) 
+HDR lightdata         [variable]      458664/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5848/393216   ( 1.5%) 
+LDR ambient table      482/65536        1928/262144   ( 0.7%) 
+HDR ambient table      482/65536        1928/262144   ( 0.7%) 
+LDR leaf ambient      2516/65536       70448/1835008  ( 3.8%) 
+HDR leaf ambient      2507/65536       70196/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/658      ( 0.2%) 
+pakfile               [variable]      237623/0        ( 0.0%) 
+physics               [variable]       29582/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 1612
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+3 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.vmf
+Map revision 37
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+No vis information, direct lighting only.
+615 faces
+37059 square feet [5336583.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0016 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 62/32768         744/393216   ( 0.2%) 
+brushsides             531/65536        4248/524288   ( 0.8%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               993/65536       11916/786432   ( 1.5%) 
+nodes                  480/65536       15360/2097152  ( 0.7%) 
+texinfos                67/12288        4824/884736   ( 0.5%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  615/65536       34440/3670016  ( 0.9%) 
+hdr faces              615/65536       34440/3670016  ( 0.9%) 
+origfaces              255/65536       14280/3670016  ( 0.4%) 
+leaves                 482/65536       15424/2097152  ( 0.7%) 
+leaffaces              764/65536        1528/131072   ( 1.2%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3938/512000      15752/2048000  ( 0.8%) 
+edges                 2264/256000       9056/1024000  ( 0.9%) 
+LDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+HDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             47/131072        470/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           663/131072       1326/262144   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      458664/0        ( 0.0%) 
+HDR lightdata         [variable]      458664/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5848/393216   ( 1.5%) 
+LDR ambient table      482/65536        1928/262144   ( 0.7%) 
+HDR ambient table      482/65536        1928/262144   ( 0.7%) 
+LDR leaf ambient      2516/65536       70448/1835008  ( 3.8%) 
+HDR leaf ambient      2507/65536       70196/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/658      ( 0.2%) 
+pakfile               [variable]      237623/0        ( 0.0%) 
+physics               [variable]       29582/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 1612
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+3 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.vmf
+Map revision 37
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+No vis information, direct lighting only.
+615 faces
+37059 square feet [5336583.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 62/32768         744/393216   ( 0.2%) 
+brushsides             531/65536        4248/524288   ( 0.8%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               993/65536       11916/786432   ( 1.5%) 
+nodes                  480/65536       15360/2097152  ( 0.7%) 
+texinfos                67/12288        4824/884736   ( 0.5%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  615/65536       34440/3670016  ( 0.9%) 
+hdr faces              615/65536       34440/3670016  ( 0.9%) 
+origfaces              255/65536       14280/3670016  ( 0.4%) 
+leaves                 482/65536       15424/2097152  ( 0.7%) 
+leaffaces              764/65536        1528/131072   ( 1.2%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3938/512000      15752/2048000  ( 0.8%) 
+edges                 2264/256000       9056/1024000  ( 0.9%) 
+LDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+HDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             47/131072        470/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           663/131072       1326/262144   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      458664/0        ( 0.0%) 
+HDR lightdata         [variable]      458664/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5848/393216   ( 1.5%) 
+LDR ambient table      482/65536        1928/262144   ( 0.7%) 
+HDR ambient table      482/65536        1928/262144   ( 0.7%) 
+LDR leaf ambient      2516/65536       70448/1835008  ( 3.8%) 
+HDR leaf ambient      2507/65536       70196/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/658      ( 0.2%) 
+pakfile               [variable]      237623/0        ( 0.0%) 
+physics               [variable]       29582/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 1612
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+3 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.vmf
+Map revision 37
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+No vis information, direct lighting only.
+615 faces
+37059 square feet [5336583.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0015 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 62/32768         744/393216   ( 0.2%) 
+brushsides             531/65536        4248/524288   ( 0.8%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               993/65536       11916/786432   ( 1.5%) 
+nodes                  480/65536       15360/2097152  ( 0.7%) 
+texinfos                67/12288        4824/884736   ( 0.5%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  615/65536       34440/3670016  ( 0.9%) 
+hdr faces              615/65536       34440/3670016  ( 0.9%) 
+origfaces              255/65536       14280/3670016  ( 0.4%) 
+leaves                 482/65536       15424/2097152  ( 0.7%) 
+leaffaces              764/65536        1528/131072   ( 1.2%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3938/512000      15752/2048000  ( 0.8%) 
+edges                 2264/256000       9056/1024000  ( 0.9%) 
+LDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+HDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             47/131072        470/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           663/131072       1326/262144   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      458664/0        ( 0.0%) 
+HDR lightdata         [variable]      458664/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5848/393216   ( 1.5%) 
+LDR ambient table      482/65536        1928/262144   ( 0.7%) 
+HDR ambient table      482/65536        1928/262144   ( 0.7%) 
+LDR leaf ambient      2516/65536       70448/1835008  ( 3.8%) 
+HDR leaf ambient      2507/65536       70196/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/658      ( 0.2%) 
+pakfile               [variable]      237623/0        ( 0.0%) 
+physics               [variable]       29582/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 1612
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+3 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.vmf
+Map revision 37
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+No vis information, direct lighting only.
+615 faces
+37059 square feet [5336583.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0016 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 62/32768         744/393216   ( 0.2%) 
+brushsides             531/65536        4248/524288   ( 0.8%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               993/65536       11916/786432   ( 1.5%) 
+nodes                  480/65536       15360/2097152  ( 0.7%) 
+texinfos                67/12288        4824/884736   ( 0.5%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  615/65536       34440/3670016  ( 0.9%) 
+hdr faces              615/65536       34440/3670016  ( 0.9%) 
+origfaces              255/65536       14280/3670016  ( 0.4%) 
+leaves                 482/65536       15424/2097152  ( 0.7%) 
+leaffaces              764/65536        1528/131072   ( 1.2%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3938/512000      15752/2048000  ( 0.8%) 
+edges                 2264/256000       9056/1024000  ( 0.9%) 
+LDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+HDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             47/131072        470/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           663/131072       1326/262144   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      458664/0        ( 0.0%) 
+HDR lightdata         [variable]      458664/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5848/393216   ( 1.5%) 
+LDR ambient table      482/65536        1928/262144   ( 0.7%) 
+HDR ambient table      482/65536        1928/262144   ( 0.7%) 
+LDR leaf ambient      2516/65536       70448/1835008  ( 3.8%) 
+HDR leaf ambient      2507/65536       70196/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/658      ( 0.2%) 
+pakfile               [variable]      237623/0        ( 0.0%) 
+physics               [variable]       29582/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 1612
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+3 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.vmf
+Map revision 37
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+No vis information, direct lighting only.
+615 faces
+37059 square feet [5336583.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0016 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 62/32768         744/393216   ( 0.2%) 
+brushsides             531/65536        4248/524288   ( 0.8%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               993/65536       11916/786432   ( 1.5%) 
+nodes                  480/65536       15360/2097152  ( 0.7%) 
+texinfos                67/12288        4824/884736   ( 0.5%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  615/65536       34440/3670016  ( 0.9%) 
+hdr faces              615/65536       34440/3670016  ( 0.9%) 
+origfaces              255/65536       14280/3670016  ( 0.4%) 
+leaves                 482/65536       15424/2097152  ( 0.7%) 
+leaffaces              764/65536        1528/131072   ( 1.2%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3938/512000      15752/2048000  ( 0.8%) 
+edges                 2264/256000       9056/1024000  ( 0.9%) 
+LDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+HDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             47/131072        470/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           663/131072       1326/262144   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      458664/0        ( 0.0%) 
+HDR lightdata         [variable]      458664/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5848/393216   ( 1.5%) 
+LDR ambient table      482/65536        1928/262144   ( 0.7%) 
+HDR ambient table      482/65536        1928/262144   ( 0.7%) 
+LDR leaf ambient      2516/65536       70448/1835008  ( 3.8%) 
+HDR leaf ambient      2507/65536       70196/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/658      ( 0.2%) 
+pakfile               [variable]      237623/0        ( 0.0%) 
+physics               [variable]       29582/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 1612
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+3 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.vmf
+Map revision 37
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+No vis information, direct lighting only.
+615 faces
+37059 square feet [5336583.50 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0017 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+4 of 12 (33% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 62/32768         744/393216   ( 0.2%) 
+brushsides             531/65536        4248/524288   ( 0.8%) 
+planes                 416/65536        8320/1310720  ( 0.6%) 
+vertexes               993/65536       11916/786432   ( 1.5%) 
+nodes                  480/65536       15360/2097152  ( 0.7%) 
+texinfos                67/12288        4824/884736   ( 0.5%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  615/65536       34440/3670016  ( 0.9%) 
+hdr faces              615/65536       34440/3670016  ( 0.9%) 
+origfaces              255/65536       14280/3670016  ( 0.4%) 
+leaves                 482/65536       15424/2097152  ( 0.7%) 
+leaffaces              764/65536        1528/131072   ( 1.2%) 
+leafbrushes            219/65536         438/131072   ( 0.3%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             3938/512000      15752/2048000  ( 0.8%) 
+edges                 2264/256000       9056/1024000  ( 0.9%) 
+LDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+HDR worldlights         20/16384        1760/1441792  ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             47/131072        470/1310720  ( 0.0%) 
+waterverts               0/131072          0/1572864  ( 0.0%) 
+waterindices           663/131072       1326/262144   ( 0.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      458664/0        ( 0.0%) 
+HDR lightdata         [variable]      458664/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        5848/393216   ( 1.5%) 
+LDR ambient table      482/65536        1928/262144   ( 0.7%) 
+HDR ambient table      482/65536        1928/262144   ( 0.7%) 
+LDR leaf ambient      2516/65536       70448/1835008  ( 3.8%) 
+HDR leaf ambient      2507/65536       70196/1835008  ( 3.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/658      ( 0.2%) 
+pakfile               [variable]      237623/0        ( 0.0%) 
+physics               [variable]       29582/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 2
+
+Total triangle count: 1612
+Writing c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+3 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.vmf
+Map revision 37
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+Error opening c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+
+
+[Reading texlights from 'lights.rad']
+[53 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+Error opening c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.vmf
+Map revision 37
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+Error opening c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.vmf
+Map revision 38
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+Error opening c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.vmf
+Map revision 38
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+Error opening c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+
+
+Using shader api: shaderapiempty.dll
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.vmf
+Map revision 39
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\splitting\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ambient_generic (-128.00 -1920.00 57.00) leaked!
+--- MAP LEAKED ---
+
+
+
+2 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
+Error opening c:\program files (x86)\steam\steamapps\sourcemods\splitting\mapsrc\sph_awake.bsp
